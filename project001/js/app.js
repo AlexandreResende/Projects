@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
 
 	var stackLength = 0;
@@ -42,7 +41,7 @@ $(document).ready(function(){
 
 	$('#removeElement').on('click', function(){
 
-		var stackLength = $('#stackHolder').children().length;;
+		var stackLength = $('#stackHolder').children().length;
 
 		$('#stackHolder').children().first().remove();
 		stackLength = $('#stackHolder').children().length;
@@ -52,11 +51,11 @@ $(document).ready(function(){
 
 	$('#clearStack').on('click', function(){
 
-		var stackLength;
-		$('#stackHolder').remove();
+		$('#stackHolder').children().remove();
 		stackLength = $('#stackHolder').children().length;
 		$('span').text(stackLength);
 
 	});
 
 });
+
