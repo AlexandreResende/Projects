@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>Queue Data Structure</title>
+		<meta charset="utf-8">
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+	</head>
+	<body>
+
+		<div class="container-fluid">
+			<div class="well row">
+				<div class="col-sm-12">
+					<h1 class="text-center">Queue Data Structure</h1>
+				</div>
+			</div>
+
+			<div class="well row">
+
+				<div id="widthScreen" class="col-sm-3 text-center">
+					<p>Methods</p> 
+					<div id="verticalAlign">
+						<label>Element to be added:</label>
+						<input id="elementInput" class="btn btn-block" type="number" name="elementInput">
+						<button id="addElement" class="btn btn-block btn-success" onclick="queue.addElement()">Add element</button>
+						<button id="removeElement" class="btn btn-block btn-danger" onclick="queue.removeElement()">Remove element</button>
+						<button id="clearQueue" class="btn btn-block btn-primary" onclick="queue.clearQueue()">Clear Queue </button>
+						<div id="queueLength" class="text-primary">Length: <span id="length">0</span> <br> Max length: 10</div><br>
+					</div>
+				</div>
+
+				<div id="widthScreen" class="col-sm-9 text-center">
+				
+					<p id="demonstrationMargin">Demonstration</p>
+					<div id="queueHolder"></div>
+				
+				</div>
+
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="./js/app.js"></script>
+
+	</body>
+</html>
