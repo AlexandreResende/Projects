@@ -1,0 +1,181 @@
+body, html{
+  height: 100%;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+  .tecnologias{
+  height:100%;
+  }
+  h1.logo{
+    font-size:50px;
+  }
+  .contactform{
+    width:600px;
+  }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .tecnologias{
+    height:100%;
+  }
+  h1.logo{
+    font-size:50px;
+  }
+  .contactform{
+    width:400px;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .contactform{
+    width:600px;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .contactform{
+    width:500px;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .contactform{
+    width:300px;
+  }
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  font-family: 'Lato', sans-serif;
+}
+
+.logo {
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.transp {
+  background-color: white !important;
+  background: transparent;
+  border-color: transparent !important;
+}
+
+.activeheader:hover{
+  color:black;
+}
+
+.sects{
+  height:100%
+}
+
+.center{
+  text-align: center;
+}
+
+.vcenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.objective{
+  background-color:#F4fDFF;
+}
+
+.portfolio{
+  background-color: #FFFFFF;
+}
+
+.card{
+  padding:20px;
+}
+
+.crop{
+  margin: 0 auto;
+  max-width: 150px;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.round{
+  display: block;
+  margin: 0 auto;
+  height: 150px;
+  width: 150px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.python3{
+  background:url("../images/python.png") center no-repeat;
+  background-size: cover;
+}
+
+.django{
+  background:url("../images/django.png") center no-repeat;
+  background-size: cover;
+}
+
+.jquery{
+  background:url("../images/jquery.png") center no-repeat;
+  background-size: cover;
+}
+
+.html5{
+  background:url("../images/html5.png") center no-repeat;
+  background-size: cover;
+}
+
+.css3{
+  background:url("../images/css3.png") center no-repeat;
+  background-size: cover;
+}
+
+.linksource{
+  text-decoration: none;
+  color: black;
+}
+
+.fa{
+  font-size: 1.5em !important;
+}
+
+.contact{
+  overflow: scroll;
+}
+
+.contactform{
+  text-align:left;
+  margin:0 auto;
+}
+
+.contactsubmit{
+  width: 45%;
+  font-family: 'Share Tech Mono', monospace;
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 10px 10px 10px 10px;
+  background-color: #EAEAEA;
+  border: none;
+  transition: all 0.5s ease;
+}
+
+.contactsubmit:hover{
+  background-color: #969696;
+  color: white;
+}
+
+
+
+
+
+
+
