@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html>
+	<head>
+
+		<title>Base HTML Page</title>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>-->
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/animation.js"></script>
+		<script type="text/javascript" src="js/validation.js"></script>
+
+	</head>
+
+	<body>
+
+		<form name="myform" onsubmit="return validateForm()">
+			
+			<ul>
+				<li class="title">Who are You?</li>
+				<li class="fields">
+					<label>*First Name:</label><br/>
+					<input id="first_name" class="req" type="text"/><br/>
+					<label>Middle Name:</label><br/>
+					<input id="middle_name" type="text"/><br/>
+					<label>Last Name:</label><br/>
+					<input id="last_name" type="text"/><br/>
+					<label>*Email:</label><br/>
+					<input id="email" class="req" type="text"/><br/>
+				</li>
+				<li class="title">Where are You?</li>
+				<li class="fields">
+					<label>City:</label><br/>
+					<input id="city" type="text" /><br/>
+					<label>*State:</label><br/>
+					<input id="state" class="req" type="text" /><br/>
+					<label>Country:</label><br/>
+					<input id="country" type="text" /><br/>
+				</li>
+				<li class="title">What do you do?</li>
+				<li class="fields">
+					<label>*Occupation:</label><br/>
+					<input id="occupation" type="text" /><br/>
+					<label>Company:</label><br/>
+					<input id="company" class="req" type="text" /><br/>
+					<label>Company Location:</label><br/>
+					<input id="location" type="text" /><br/>
+				</li>
+			</ul>
+			<input type="submit" value="Submit Form" />
+		</form>
+
+	</body>
+</html>
