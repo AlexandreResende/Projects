@@ -1,0 +1,28 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: 'Trirong', sans-serif;
+	background-color: rgb(50,50,50);
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: black;
+	font-weight: bold;
+}
+
+.footerContainer {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+}
+
+.footerPosition {
+	height: 7rem;
+}
