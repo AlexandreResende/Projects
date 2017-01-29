@@ -3,26 +3,87 @@ html, body {
 	padding: 0;
 	height: 100%;
 	font-family: 'Trirong', sans-serif;
-	background-color: rgb(50,50,50);
+	background-color: rgb(255,255,255);
+}
+
+.heightNavbar {
+	height: 5rem;
+	margin-top: 2em;
+}
+
+.navbar-inverse {
+	background: rgb(211, 84, 0);
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+	color: rgb(0,0,0);
+}
+
+.landingImg {
+	background-image: url('../images/pumpkins.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 30rem;
+	overflow: hidden;
+	margin-top: -2rem;
+}
+
+.infoSection {
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
+
+img {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: 50%;
+}
+
+#halloweenAlign {
+	margin-top: 15%;
 }
 
 a {
 	text-decoration: none;
-	color: black;
+	color: rgb(0,0,0);
 }
 
 a:hover {
-	color: black;
+	color: rgb(255,255,255);
+	text-decoration: none;
 	font-weight: bold;
 }
 
+.mediasSection {
+	margin-top: 2rem;
+	background-color: rgb(243, 156, 18);
+	height: 5rem;
+}
+
+.mediasFormatting {
+	margin-top: 0.3rem;
+}
+
+.medias:hover {
+	background-color: rgb(192, 57, 43);
+	color: rgb(255,255,255);
+}
+
 .footerContainer {
-	position: absolute;
+	position: relative;
+	background: rgb(211, 84, 0);
+	color: rgb(0,0,0);
+	line-height: 200%;
 	width: 100%;
 	left: 0;
 	bottom: 0;
 }
 
 .footerPosition {
+	vertical-align: center;
 	height: 7rem;
 }
+
+
+

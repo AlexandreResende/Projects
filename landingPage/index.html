@@ -23,29 +23,91 @@
 	<body>
 
 		<div class="navbar navbar-inverse">
-			<div class="container-fluid">
+			<div class="container-fluid heightNavbar">
 				<a class="nav navbar-brand" href="./index.html">Alexandre Resende</a>
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="">About Me</a></li>
-					<li><a href="">Medias</a></li>
-					<li><a href="">Portfolio</a></li>
-					<li><a href="">Techologies</a></li>
-					<li><a href="">Contact Me</a></li>
+					<li><a href="#information">About Pumpkins</a></li>
+					<li><a href="#halloween">Halloween</a></li>
+					<li><a href="#medias">Medias</a></li>
+					<li><a href="#contact">Contact Me</a></li>
 				</ul>
 			</div>
 		</div>
 
+		<!-- Landing page image -->
+		<div clas="container-fluid">
+			<div class="row landingImg">
+				<div class="col-xs-12"></div>
+			</div>
+		</div>
+
+
 		<div class="container-fluid">
-			<div class="row well">
-				<div class="col-sm-12">
-					<p class="text-center">Alexandre Resende</p>
+			<div class="row infoSection">
+				<div id="information" class="hidden-xs col-sm-6">
+					<img class="img-responsive" src="./images/pumpkin.png" alt="Pumpkin">
+				</div>
+
+				<div class="col-xs-12 col-sm-6">
+					<div class="row">
+						<div class="col-xs-12">
+							<p class="text-center h3">Etimology</p>
+							<p class="text-justify">
+								The word pumpkin originates from the word pepon, which is Greek for "large melon", something round and large. The French adapted this word to pompon, which the British changed to pumpion and later American colonists changed that to the word that is used today, pumpkin.
+							</p>
+						</div>
+						<div class="col-xs-12">
+							<p class="text-center h3">Nutrition</p>
+							<p class="text-justify">
+								In a 100-gram amount, raw pumpkin provides 26 Calories and is an excellent source (20% or more the Daily Value, DV) of provitamin A beta-carotene and vitamin A (53% DV) (table). Vitamin C is present in moderate content (11% DV), but no other nutrients are in significant amounts (less than 10% DV, table). Pumpkin is 92% water, 6.5% carbohydrate, 0.1% fat and 1% protein (table).
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="divisor"></div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div id="halloween" class="hidden-xs col-sm-6 ">
+					<img id="halloweenAlign" class="img-responsive" src="./images/halloween.jpg" alt="Halloween">
+				</div>
+
+				<div class="col-xs-12 col-sm-6">
+					<div class="row">
+						<div class="col-xs-12">
+							<p class="text-center h3">Halloween</p>
+							<p class="text-justify">
+								Pumpkins are commonly carved into decorative lanterns called jack-o'-lanterns for the Halloween season in North America. Throughout Britain and Ireland, there is a long tradition of carving lanterns from vegetables, particularly the turnip, mangelwurzel, or swede. The practice of carving pumpkins for Halloween originated from an Irish myth about a man named "Stingy Jack". The turnip has traditionally been used in Ireland and Scotland at Halloween, but immigrants to North America used the native pumpkin, which are both readily available and much larger – making them easier to carve than turnips. Not until 1837, does jack-o'-lantern appear as a term for a carved vegetable lantern, and the carved pumpkin lantern association with Halloween is recorded in 1866.
+							</p>
+							<p class="text-justify">
+								In the United States, the carved pumpkin was first associated with the harvest season in general, long before it became an emblem of Halloween. In 1900, an article on Thanksgiving entertaining recommended a lit jack-o'-lantern as part of the festivities that encourage kids and families to join together to make their own jack-o'-lanterns.
+							</p>
+							<p class="text-justify">
+								Association of pumpkins with harvest time and pumpkin pie at Canadian and American Thanksgiving reinforce its iconic role. Starbucks turned this association into marketing with its pumpkin spice latte, introduced in 2003. This has led to a notable trend in pumpkin and spice flavored food products in North America. This is despite the fact that North Americans rarely buy whole pumpkins to eat other than when carving jack-o'-lanterns.
+							</p>	
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row mediasSection">
+				<div id="medias" class="col-xs-12 text-center mediasFormatting">
+					<a class="btn btn-lg medias" href="#" target="_blank">Github</a>
+					<a class="btn btn-lg medias" href="#" target="_blank">Twitter</a>
+					<a class="btn btn-lg medias" href="#" target="_blank">LinkedIn</a>
+					<a class="btn btn-lg medias" href="#" target="_blank">FCC Page</a>
 				</div>
 			</div>
 		</div>
 
 		<div class="container-fluid footerContainer">
-			<div class="row well footerPosition">
-				<div class="col-sm-12">
+			<div class="row footerPosition">
+				<div id="contact" class="col-sm-12">
 					<div class="text-center"><a class="text-center" href="mailto:alexandre.amres@gmail.com">Email me!</a></div>
 					<p class="text-center">Developed by Alexandre Resende</p>
 				</div>
@@ -58,7 +120,7 @@
 		<script>
 			setInterval(function(){
 				window.location.reload();
-			}, 2000);
+			}, 20000);
 		</script>
 
 	</body>
