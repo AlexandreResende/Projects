@@ -1,9 +1,11 @@
+
 html, body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
 	font-family: 'Trirong', sans-serif;
 	background-color: rgb(255,255,255);
+	overflow-x: hidden;
 }
 
 .heightNavbar {
@@ -85,5 +87,11 @@ a:hover {
 	height: 7rem;
 }
 
-
-
+@media screen and (max-width: 470px){
+	.mediasSection {
+		height: 10rem;
+	}
+	.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+		font-weight: bold;
+	}
+}

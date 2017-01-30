@@ -24,8 +24,18 @@
 
 		<div class="navbar navbar-inverse">
 			<div class="container-fluid heightNavbar">
-				<a class="nav navbar-brand" href="./index.html">Alexandre Resende</a>
-				<ul class="nav navbar-nav navbar-right">
+				<div class="navbar-header">
+					<a class="nav navbar-brand" href="./index.html">Alexandre Resende</a>
+
+					<button type="button" class="navbar-toggle">
+						<span class="sr-only">Toggle Navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>			
+
+				<ul id="listItems" class="nav navbar-nav navbar-right collapse navbar-collapse">
 					<li><a href="#information">About Pumpkins</a></li>
 					<li><a href="#halloween">Halloween</a></li>
 					<li><a href="#medias">Medias</a></li>
@@ -120,7 +130,7 @@
 		<script>
 			setInterval(function(){
 				window.location.reload();
-			}, 20000);
+			}, 200000);
 		</script>
 
 	</body>
