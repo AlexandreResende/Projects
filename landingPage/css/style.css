@@ -8,17 +8,8 @@ html, body {
 	overflow-x: hidden;
 }
 
-.heightNavbar {
-	height: 5rem;
-	margin-top: 2em;
-}
-
-.navbar-inverse {
-	background: rgb(211, 84, 0);
-}
-
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
-	color: rgb(0,0,0);
+	color: rgb(255,255,255);
 }
 
 .landingImg {
@@ -48,11 +39,10 @@ img {
 
 a {
 	text-decoration: none;
-	color: rgb(0,0,0);
+	color: rgb(255,255,255);
 }
 
 a:hover {
-	color: rgb(255,255,255);
 	text-decoration: none;
 	font-weight: bold;
 }
@@ -74,8 +64,8 @@ a:hover {
 
 .footerContainer {
 	position: relative;
-	background: rgb(211, 84, 0);
-	color: rgb(0,0,0);
+	background: rgb(40,40,40);
+	color: rgb(255,255,255);
 	line-height: 200%;
 	width: 100%;
 	left: 0;
