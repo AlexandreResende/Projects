@@ -11,4 +11,9 @@ router.get('/login', function(req, res) {
     res.render('login');
 });
 
+//logout route
+router.get('/logout', function(req, res) {
+    res.render('logout');
+});
+
 module.exports = router;
