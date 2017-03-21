@@ -16,7 +16,11 @@ router.get('/login', function(req, res) {
 
 //logout route
 router.get('/logout', function(req, res) {
-    res.render('logout');
+    req.logout();
+
+    req.flash('success_msg', 'You are logged out');
+
+    res.redirect('/users/login');
 });
 
 //register user route
@@ -94,5 +98,7 @@ router.post('/login',
     function(req, res) {
         res.redirect('/');
     });
+
+
 
 module.exports = router;
